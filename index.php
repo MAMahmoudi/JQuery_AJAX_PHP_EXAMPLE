@@ -18,9 +18,7 @@
         <div class="Dark_Background Hidden" id="Dark_Background"></div>
         <div class="Add_Form Hidden" id="Add_Form">
             <h1>Add Product</h1>
-            <form action="add.php" method="post">
-                <label for="Product_ID">Product ID</label>
-                <input type="text" class="form-control" id="Product_ID" name="Product_ID">
+            <form>
                 <label for="Product_Name">Product Name</label>
                 <input type="text" class="form-control" id="Product_Name" name="Product_Name">
                 <label for="Product_Description">Description</label>
@@ -32,14 +30,14 @@
         </div>
         <div class="Add_Form Hidden" id="Update_Form">
             <h1>Update Product</h1>
-            <form action="add.php" method="post">
-                <label for="Product_ID">Product ID</label>
+            <form>
+                <label for="Product_ID2">Product ID</label>
                 <input type="text" class="form-control" id="Product_ID2" name="Product_ID">
-                <label for="Product_Name">Product Name</label>
+                <label for="Product_Name2">Product Name</label>
                 <input type="text" class="form-control" id="Product_Name2" name="Product_Name">
-                <label for="Product_Description">Description</label>
+                <label for="Product_Description2">Description</label>
                 <input type="text" class="form-control" id="Product_Description2" name="Product_Description">
-                <label for="Price">Price</label>
+                <label for="Price2">Price</label>
                 <input type="text" class="form-control" id="Price2" name="Price">
                 <button type="submit" class="btn btn-primary">Update</button>
             </form>
